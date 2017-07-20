@@ -1,0 +1,19 @@
+{
+  "name": "redux-promise-await-middleware",
+  "version": "0.1.0",
+  "description": "Redux middleware and reducer to handle async actions with promises.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redux",
+    "async",
+    "promise",
+    "actions",
+    "middleware",
+    "reducer"
+  ],
+  "author": "Michal Palys-Dudek <michal@palys-dudek.pl>",
+  "license": "MIT"
+}
