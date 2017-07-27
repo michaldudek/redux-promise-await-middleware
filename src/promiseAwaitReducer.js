@@ -24,9 +24,7 @@ export default function promiseAwaitReducer (options = {}) {
           return state
         }
 
-        state.splice(index, 1)
-
-        return [...state]
+        return state.filter((promise) => promise !== action.promise)
     }
 
     return state
