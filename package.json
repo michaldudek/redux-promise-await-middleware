@@ -6,6 +6,7 @@
   "scripts": {
     "clear": "make clear",
     "build": "make build",
+    "dev": "make dev",
     "test": "make test",
     "lint": "make lint"
   },
