@@ -1,4 +1,4 @@
-import { defaults } from './awaitPromiseMiddleware'
+import { defaults } from './promiseAwaitMiddleware'
 
 /**
  * Creates a reducer function that collects pending promises from dispatched actions
