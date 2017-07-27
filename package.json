@@ -2,14 +2,8 @@
   "name": "redux-promise-await-middleware",
   "version": "0.1.0",
   "description": "Redux middleware and reducer to handle async actions with promises.",
-  "main": "dist/index.js",
-  "scripts": {
-    "clear": "make clear",
-    "build": "make build",
-    "dev": "make dev",
-    "test": "make test",
-    "lint": "make lint"
-  },
+  "author": "Michal Palys-Dudek <michal@palys-dudek.pl>",
+  "license": "MIT",
   "keywords": [
     "redux",
     "async",
@@ -18,8 +12,18 @@
     "middleware",
     "reducer"
   ],
-  "author": "Michal Palys-Dudek <michal@palys-dudek.pl>",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaldudek/redux-promise-await-middleware.git"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "clear": "make clear",
+    "build": "make build",
+    "dev": "make dev",
+    "test": "make test",
+    "lint": "make lint"
+  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
