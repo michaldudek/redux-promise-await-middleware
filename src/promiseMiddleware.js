@@ -21,15 +21,16 @@ export default function promiseMiddleware (options = {}) {
     ...options
   }
 
-  return (next) => (action) => {
+  return () => (next) => (action) => {
     const {
       promise,
       type,
+      __await,
       ...rest
     } = action
 
-    // if not really a promise then just continue
-    if (!isPromise(promise)) {
+    // if not really a promise then just continue or if an await action
+    if (__await || !isPromise(promise)) {
       return next(action)
     }
 

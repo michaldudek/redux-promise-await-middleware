@@ -10,13 +10,13 @@
  * before rendering a response.
  */
 
-import awaitPromiseMiddleware from './awaitPromiseMiddleware'
-import awaitPromiseReducer from './awaitPromiseReducer'
+import promiseAwaitMiddleware from './promiseAwaitMiddleware'
+import promiseAwaitReducer from './promiseAwaitReducer'
 import promiseMiddleware, { defaults } from './promiseMiddleware'
 
 export {
-  awaitPromiseMiddleware,
-  awaitPromiseReducer,
+  promiseAwaitMiddleware,
+  promiseAwaitReducer,
   promiseMiddleware,
   defaults
 }

@@ -7,7 +7,7 @@ import { defaults } from './awaitPromiseMiddleware'
  * @param  {Object} options Optional options.
  * @return {Function}
  */
-export default function awaitPromiseReducer (options = {}) {
+export default function promiseAwaitReducer (options = {}) {
   const config = {
     ...defaults,
     ...options
