@@ -107,6 +107,7 @@ function render (url, store) {
       return html
     })
 }
+```
 
 # Promise Middleware
 
