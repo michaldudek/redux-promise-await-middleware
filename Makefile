@@ -19,5 +19,5 @@ lint:
 	@echo "No linting yet! :("
 	@exit 1
 
-publish:
+publish: build
 	npm publish
